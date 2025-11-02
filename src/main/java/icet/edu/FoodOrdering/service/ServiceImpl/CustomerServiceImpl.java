@@ -1,8 +1,9 @@
-package icet.edu.FoodOrdering.service;
+package icet.edu.FoodOrdering.service.ServiceImpl;
 
 import icet.edu.FoodOrdering.model.Customer;
 import icet.edu.FoodOrdering.repository.CustomerRepository;
-import icet.edu.FoodOrdering.repository.CustomerRepositoryImpl;
+import icet.edu.FoodOrdering.repository.RepositoryImpl.CustomerRepositoryImpl;
+import icet.edu.FoodOrdering.service.CustomerService;
 
 import java.sql.SQLException;
 

@@ -1,17 +1,16 @@
-package icet.edu.FoodOrdering.service;
+package icet.edu.FoodOrdering.service.ServiceImpl;
 
-import com.mysql.cj.protocol.Resultset;
 import icet.edu.FoodOrdering.model.Foods;
 import icet.edu.FoodOrdering.repository.FoodRepository;
-import icet.edu.FoodOrdering.repository.FoodRepositoryImpl;
+import icet.edu.FoodOrdering.repository.RepositoryImpl.FoodRepositoryImpl;
+import icet.edu.FoodOrdering.service.FoodServise;
 
-import javax.xml.transform.Result;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class FoodServiseImpl implements FoodServise{
+public class FoodServiseImpl implements FoodServise {
     FoodRepository foodRepository=new FoodRepositoryImpl();
     @Override
     public List<Foods> getAvailabeFoods() throws SQLException {

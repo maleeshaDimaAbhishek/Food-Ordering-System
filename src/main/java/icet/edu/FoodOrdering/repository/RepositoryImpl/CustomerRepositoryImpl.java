@@ -1,7 +1,8 @@
-package icet.edu.FoodOrdering.repository;
+package icet.edu.FoodOrdering.repository.RepositoryImpl;
 
 import icet.edu.FoodOrdering.db.DBConnection;
 import icet.edu.FoodOrdering.model.Customer;
+import icet.edu.FoodOrdering.repository.CustomerRepository;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

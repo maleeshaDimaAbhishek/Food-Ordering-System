@@ -2,7 +2,7 @@ package icet.edu.FoodOrdering.controller;
 
 import icet.edu.FoodOrdering.model.Customer;
 import icet.edu.FoodOrdering.service.CustomerService;
-import icet.edu.FoodOrdering.service.CustomerServiceImpl;
+import icet.edu.FoodOrdering.service.ServiceImpl.CustomerServiceImpl;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
